@@ -18,5 +18,4 @@ Included are the following:
 - PHP5.3 FPM + XDebug
 - Mysql 5.5
 
-Also included a script (/bin/fix-cache-log.sh) To create cache & log dirs in the root, thereby avoiding permissions issues
-running this in OSX.
+Also included a script (/bin/fix-cache-log.sh) to create cache & log dirs in the root directory, thereby avoiding permissions issues running this in OSX.
