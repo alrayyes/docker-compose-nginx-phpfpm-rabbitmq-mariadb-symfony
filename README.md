@@ -3,14 +3,14 @@ Everything you need to get Symfony 1.4 apps running in Docker.
 
 # How this works
 
-Add your project to www directory
-Run
+- Add your project to www directory
+- Run
 
 ```shell
 docker-compose up
 ```
 
-Profit!
+- Profit!
 
 Included are the following:
 
