@@ -1,4 +1,4 @@
-# Docker Compose- Nginx Phpfpm Mariadb Symfony
+# Docker Compose Nginx Phpfpm Mariadb Symfony
 
 Everything you need to get [Symfony](https://symfony.com/) apps running in [Docker](https://www.docker.com/).
 
@@ -18,7 +18,6 @@ Included are the following:
 
 # Usage
 
-git 
 - Add your project to www directory
 - Run
 
