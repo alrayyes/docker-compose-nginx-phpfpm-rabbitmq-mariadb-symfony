@@ -1,11 +1,7 @@
-FROM andthensome/docker-php-5.3-fpm
+FROM php:fpm-alpine
 
-# Install php packages we need
-RUN pecl install xdebug-2.2.7 \
-	&& docker-php-ext-enable xdebug
+RUN docker-php-ext-install pdo_mysql
 
 COPY php.ini /usr/local/etc/php/php.ini
-
-COPY fix-cache-log.sh /usr/bin/fix-cache-log.sh
 
 WORKDIR /var/www

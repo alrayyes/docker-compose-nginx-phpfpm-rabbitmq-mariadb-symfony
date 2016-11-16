@@ -1,5 +1,5 @@
-# docker-nginx-phpfpm-mysql-symfony14
-Everything you need to get Symfony 1.4 apps running in Docker.
+# docker-compose-nginx-phpfpm-mariadb-symfony
+Everything you need to get Symfony apps running in Docker.
 
 # How this works
 
