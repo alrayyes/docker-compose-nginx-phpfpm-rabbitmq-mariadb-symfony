@@ -1,8 +1,24 @@
 # docker-compose-nginx-phpfpm-mariadb-symfony
-Everything you need to get Symfony apps running in Docker.
 
-# How this works
+Everything you need to get [Symfony](https://symfony.com/) apps running in [Docker](https://www.docker.com/).
 
+# Requirements
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+# Used Docker Images
+
+
+Included are the following:
+
+- [Nginx:stable-alpine](https://hub.docker.com/_/nginx/)
+- [php:fpm-alpine](https://hub.docker.com/_/php/)
+- [Mariadb](https://hub.docker.com/_/mariadb/)
+
+# Usage
+
+git 
 - Add your project to www directory
 - Run
 
@@ -12,10 +28,14 @@ docker-compose up
 
 - Profit!
 
-Included are the following:
+# Contributing
 
-- Nginx
-- PHP5.3 FPM + XDebug
-- Mysql 5.5
+Report any bugs using the [issue tracker][issue_tracker]. Submit your own bug fixes or feature additions via a [pull request][pull_request].
 
-Also included a script (/bin/fix-cache-log.sh) to create cache & log dirs in the root directory, thereby avoiding permissions issues running this in OSX.
+# License
+
+This theme is released under the MIT License. For more information read the [license][license].
+
+[issue_tracker]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony/issues
+[pull_request]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony/pulls
+[license]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony/blob/master/LICENSE.md
