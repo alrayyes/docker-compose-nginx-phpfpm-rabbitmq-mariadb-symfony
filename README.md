@@ -1,3 +1,5 @@
+# WARNING, RABBITMQ HAS STILL NOT BEEN IMPLEMENTED!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 # Docker Compose Nginx Phpfpm Mariadb Symfony
 
 Everything you need to get [Symfony](https://symfony.com/) apps running in [Docker](https://www.docker.com/).
