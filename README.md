@@ -14,6 +14,7 @@ Included are the following:
 
 - [Nginx:stable-alpine](https://hub.docker.com/_/nginx/)
 - [php:fpm-alpine](https://hub.docker.com/_/php/)
+- [RabbitMQ](https://hub.docker.com/_/rabbitmq/)
 - [Mariadb](https://hub.docker.com/_/mariadb/)
 
 # Usage
@@ -35,6 +36,6 @@ Report any bugs using the [issue tracker][issue_tracker]. Submit your own bug fi
 
 This theme is released under the MIT License. For more information read the [license][license].
 
-[issue_tracker]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony/issues
-[pull_request]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony/pulls
-[license]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-mariadb-symfony/blob/master/LICENSE.md
+[issue_tracker]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-rabbitmq-mariadb-symfony/issues
+[pull_request]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-rabbitmq-mariadb-symfony/pulls
+[license]: https://github.com/alrayyes/docker-compose-nginx-phpfpm-rabbitmq-mariadb-symfony/blob/master/LICENSE.md
